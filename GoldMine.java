@@ -25,7 +25,7 @@ public class GoldMine {
             scoutPhase(goldSources); // Scout bee phase
         }
 
-        // Print gold sources and their purities for debugging
+        // Print all gold sources and their purities
         for (int i = 0; i < GOLD_SOURCES; i++) {
             System.out.println("Gold source " + i + ": x = " + goldSources[i][0] + ", y = " + goldSources[i][1] + ", purity = " + evaluate(goldSources[i]));
         }
